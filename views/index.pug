@@ -1,0 +1,10 @@
+p Для того чтобы начать игру, введите свое имя
+p
+    input(type = 'text', id = 'id001')
+p
+    input(type = 'button' onclick='store()' value= 'Войти')
+
+canvas(id = "table_records", width="400", height='400', style="border: 1px solid black")
+script
+    include ../scripts/table_records.js
+    include ../scripts/index.js

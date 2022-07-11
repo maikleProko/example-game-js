@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    style
+        include ../style.css
+    h1= title
+    p Welcome to #{title}
+    canvas(id = "canvasId", width="400", height='400', style="border: 1px solid black")
+    div(id = 'info', style='border: 0px solid white')
+        p(align= "left")
+            span(id="player_name") Имя игрока:
+        p(align= "left")
+            span(id="scores") Жизни:
+
+
+    script
+        include ../scripts/table_records.js
+        include ../scripts/soundsManager.js
+        include ../scripts/scriptSecondLevel.js
+        include ../scripts/spriteManager.js
+        include ../scripts/mapManager.js
+        include ../scripts/physicManager.js
+        include ../scripts/eventManager.js
+        include ../scripts/gameManager.js

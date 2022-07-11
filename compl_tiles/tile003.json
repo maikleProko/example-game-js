@@ -1,0 +1,14 @@
+{ "columns":13,
+ "image":"..\/tiles\/farm free\/global.png",
+ "imageheight":192,
+ "imagewidth":208,
+ "margin":0,
+ "name":"global",
+ "spacing":0,
+ "tilecount":156,
+ "tiledversion":"1.7.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.6"
+}
